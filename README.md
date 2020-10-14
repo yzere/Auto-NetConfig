@@ -33,8 +33,6 @@ Automatic network configuration application to save your time.
 
 ## Part 2: Config
 
-Choose whether to configure devices or to solve problems.
-
 ### 2.1 Choosing config options
 
 #### Choose connections and configure
@@ -67,3 +65,17 @@ Choose whether to configure devices or to solve problems.
 - Provide overview of selected configuration
 - Generate manual for configuration
 - Append manual with hints and good practises
+
+
+# File structure
+
+## Sugested hierarchy
+
+- main.cpp
+  - switch.cpp -> // Configure preinitialized switch
+  - router.cpp -> // Configure preinitialized router
+  - pc.cpp -> // Configure pc to connect with static adressing
+  - connection.cpp -> // Sets up connection details
+  - adressing.cpp -> // Creates network as object and collectivises devices included, gateways and external facing ports 
+  - routing.cpp -> // Creates routers between networks
+  - initial.cpp -> // Gathers basic infor about planed configuration
