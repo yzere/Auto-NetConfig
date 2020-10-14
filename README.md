@@ -64,4 +64,6 @@ Choose whether to configure devices or to solve problems.
 
 ## Part 3: Manual and Hints
 
--
+- Provide overview of selected configuration
+- Generate manual for configuration
+- Append manual with hints and good practises
