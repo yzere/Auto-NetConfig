@@ -16,7 +16,7 @@ Automatic network configuration application to save your time.
 - Choose device type
 - Ask for subneting and provide such option
 - Show proces of subneting and representative table
-- Generate manual step-by-step for device configuration
+- Generate step-by-step manual for device configuration
 - Show alternative options in manual
 
 
@@ -53,8 +53,15 @@ Choose whether to configure devices or to solve problems.
 - Configure additional settings
 - Choose connection options (if to append config with vty and console)
 - Enable services
-- 
+- Display SbS config
 
 ### 2.2 Solving network problems
 
+- Checking ip adressing on your network
+- Checking interfaces statuses
+- Checking gateways
+- Checking line interfaces statuses
+
 ## Part 3: Manual and Hints
+
+-
